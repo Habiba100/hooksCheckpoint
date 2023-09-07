@@ -1,5 +1,5 @@
 import "./movielist.css";
-import MovieCard from "../MovieCard/MovieCard";
+import MovieCard from "./MovieCard";
 
 function MovieList({list}){
     return(

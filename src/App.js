@@ -1,8 +1,8 @@
 import {useState,useEffect} from 'react';
-import AddMovie from "../AddMovie/AddMovie.js";
-import "./app.css";
-import MovieList from '../MovieList/MovieList.js';
-import Filtring from '../Filtring/Filtring.js';
+import AddMovie from "./Components/AddMovie";
+import "./App.css";
+import MovieList from './MovieList';
+import Filtring from './Filtring';
 
 const info = [
   { title:'10 Things I Hate About You', img:'/image/10thingsihateaboutyou.jpg', description:"The film follows new student Cameron (Gordon-Levitt) who is smitten with Bianca (Oleynik) and, in order to get around her father's strict rules on dating, attempts to get bad boy Patrick (Ledger) to date Bianca's antisocial sister, Kat (Stiles). The film is named after a poem Kat writes about her romance with Patrick.", posterURL:"www.10thingsihateaboutyou.com", rating:9.4 },
